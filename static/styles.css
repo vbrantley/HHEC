@@ -1,0 +1,56 @@
+body {
+   background-color: #cccccc !important;
+   height: 100%;
+   width: 100%;
+}
+
+.navbar {
+   margin-left: 0;
+   margin-bottom: 0px !important;
+   background-color: #ff8c1a !important;
+   border-color: #ffffff !important;
+}
+
+.navbar > a, .nav-link {
+   color: #000000 !important;
+}
+
+.navbar-expand-md .navbar-nav>.active>a, .navbar-expand-md .navbar-nav>.active>a:focus {
+   color: white !important;
+   background-color: #ffffff !important;
+}
+
+.navbar-expand-md .navbar-nav > .active > a:hover {
+   background-color: #ffffff !important;
+   color: #000000 !important;
+}
+
+
+.navbar-expand-md .navbar-nav > li > a:hover {
+   background-color: #ff8c1a !important;
+   color: #ffffff !important;
+}
+
+.navbar-expand-md .navbar-toggler {
+   border-color: #ffffff;
+}
+
+.navbar-expand-md .navbar-toggler:hover {
+   background-color: #ffffff;
+}
+
+.navbarRow {
+   margin-left: -30px !important;
+   margin-right: -30px !important;
+}
+
+.kdot {
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.bigLogo {
+   position: absolute;
+   top: 60px;
+}
