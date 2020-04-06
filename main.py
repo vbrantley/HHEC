@@ -27,6 +27,15 @@ def program():
 
 #-------------------------------------------------------------------------------
 
+@app.route('/tickets')
+def tickets():
+
+    html = render_template('tickets.html')
+    response = make_response(html)
+    return(response)
+
+#-------------------------------------------------------------------------------
+
 @app.route('/FAQ')
 def FAQ():
 
